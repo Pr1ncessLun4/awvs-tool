@@ -10,8 +10,7 @@ targets_id=[]       #添加到任务里对应的id
 real_targets=[]  #去除已经扫描过的目标
 speed='fast'
 
-url="https://8.140.253.63:13443"
-#url="https://192.168.74.128:13443"
+url="https://127.0.0.1:13443"
 url1=url+"/api/v1/targets"
 stats_url=url+"/api/v1/me/stats"
 speed_url=url+"/api/v1/targets/{}/configuration"
